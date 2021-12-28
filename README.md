@@ -203,8 +203,10 @@ It works!
     
     >python motion_planning.py
 
-![Video](./videos/zigzag.mp4)
-  # Flight video: https://youtu.be/ztrvaW3ITFY 
+  # Flight video: 
+  https://github.com/lily-aung/FCND-Motion-Planning/blob/main/videos/zigzag.mp4
+  
+  Complete video: https://youtu.be/ztrvaW3ITFY 
 
 ```
 
