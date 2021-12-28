@@ -196,14 +196,14 @@ def prune_path(path, epsilon=1e-6):
 #### 7. Execute the flight 
 It works!
 ```
-
-# Run from command line: 
+  #Run from command line: 
     >python motion_planning.py --global_goal_lon -122.397755 --global_goal_lat 37.793839
 
     or with pre-defined params
     
     >python motion_planning.py
 
-## Flight video: https://youtu.be/ztrvaW3ITFY 
+  # Flight video: https://youtu.be/ztrvaW3ITFY 
+
 ```
 
