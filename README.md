@@ -71,7 +71,7 @@ The script of planning_utils.py provides
 
 ### Implementing Your Path Planning Algorithm
 
-#### 1. Set your global home position
+#### 1. Set global home position
 
 - The colliders.csv file contains the data of initial lat and lon.
 
@@ -87,7 +87,7 @@ The script of planning_utils.py provides
  
 
 
-#### 2. Set your current local position
+#### 2. Set current local position
 - Retrieve the current position in geodetic coordinates from self._latitude, self._longitude and self._altitude. 
 - Use the utility function global_to_local() to convert to local position using self.global_home
  
