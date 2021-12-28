@@ -1,12 +1,7 @@
 # FCND - 3D Motion Planning
 ![Quad Image](./images/enroute.png)
 
-
-
-This project is a continuation of the Backyard Flyer project where you executed a simple square shaped flight path. In this project you will integrate the techniques that you have learned throughout the last several lessons to plan a path through an urban environment. Check out the [project rubric](https://review.udacity.com/#!/rubrics/1534/view) for more detail on what constitutes a passing submission.
-
-## Option to do this project in a GPU backed virtual machine in the Udacity classroom!
-Rather than downloading the simulator and starter files you can simply complete this project in a virual workspace in the Udacity classroom! Follow [these instructions](https://classroom.udacity.com/nanodegrees/nd787/parts/5aa0a956-4418-4a41-846f-cb7ea63349b3/modules/0c12632a-b59a-41c1-9694-2b3508f47ce7/lessons/5f628104-5857-4a3f-93f0-d8a53fe6a8fd/concepts/ab09b378-f85f-49f4-8845-d59025dd8a8e?contentVersion=1.0.0&contentLocale=en-us) to proceed with the VM. 
+This project is a continuation of the Backyard Flyer project where you executed a simple square shaped flight path. 
 
 ## To complete this project on your local machine, follow these instructions:
 ### Step 1: Download the Simulator
@@ -58,7 +53,7 @@ You should see the quad fly a jerky path of waypoints to the northeast for about
 
 ### Explain the Starter Code 
 
-#### 1. Explain the functionality of what's provided in `motion_planning.py` and `planning_utils.py`
+#### Explain the functionality of what's provided in `motion_planning.py` and `planning_utils.py`
 
 #### motion_planning.py 
 
@@ -73,8 +68,6 @@ The script of planning_utils.py provides
 - Grid creation
 - Calculates the optimal path using A* 
 - Prune the path using collinearity check.
-
-
 
 ### Implementing Your Path Planning Algorithm
 
@@ -203,10 +196,10 @@ It works!
     
     >python motion_planning.py
 
-  # Flight video: 
-  https://github.com/lily-aung/FCND-Motion-Planning/blob/main/videos/zigzag.mp4
-  
-  Complete video: https://youtu.be/ztrvaW3ITFY 
-
 ```
 
+# Flight video: 
+ 
+![DroneVideo](./videos/zigzag.gif)
+  
+Complete video: https://youtu.be/ztrvaW3ITFY 
