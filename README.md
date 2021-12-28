@@ -1,5 +1,5 @@
 # FCND - 3D Motion Planning
-![Quad Image](./misc/enroute.png)
+![Quad Image](./images/enroute.png)
 
 
 
@@ -113,7 +113,7 @@ The script of planning_utils.py provides
 ```
 
 #### 4. Set grid goal position from geodetic coords
-
+```
     # Define Parser 
     parser.add_argument('--global_goal_lon', type=str, default='-122.397755', help="Goal position longitude")
     parser.add_argument('--global_goal_lat', type=str, default='37.793839', help="Goal position latitude")
